@@ -1,0 +1,23 @@
+.article-hero{padding:150px 0 70px;background:linear-gradient(135deg,#eef3f6,#fff)}
+.article-hero .container,.article-layout{max-width:1080px}
+.breadcrumbs{font-size:13px;color:#647786;margin-bottom:30px}.breadcrumbs a{color:#a51d25}
+.article-hero h1{font-size:clamp(34px,5vw,58px);line-height:1.35;max-width:900px;color:#102c3f;margin:0 0 24px}
+.article-lead{font-size:19px;line-height:2;max-width:850px;color:#465e6e}
+.article-meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:28px;color:#71818d;font-size:13px}
+.article-body{padding:65px 0 100px;background:#fff}
+.article-layout{display:grid;grid-template-columns:260px 1fr;gap:60px;margin:auto}
+.article-toc{position:sticky;top:110px;align-self:start;border:1px solid #e5ebee;padding:24px;border-radius:14px;background:#f8fafb}
+.article-toc b{display:block;color:#102c3f;margin-bottom:15px}.article-toc a{display:block;color:#526b7b;font-size:13px;line-height:1.7;padding:7px 0;border-bottom:1px solid #e8edef}
+.article-content{font-size:17px;line-height:2.15;color:#334e5f}
+.article-content h2{font-size:30px;line-height:1.55;color:#102c3f;margin:55px 0 18px;scroll-margin-top:120px}
+.article-content h3{font-size:21px;color:#173c52;margin:32px 0 10px}
+.article-content strong{color:#102c3f}.article-content ul,.article-content ol{padding-right:22px}
+.article-content li{margin:8px 0}.article-content a{color:#a51d25;text-decoration:underline}
+.article-note{border-right:4px solid #a51d25;background:#f7f9fa;padding:20px 24px;margin:28px 0;border-radius:10px}
+.article-table{width:100%;border-collapse:collapse;margin:28px 0;font-size:15px}
+.article-table th,.article-table td{padding:15px;border:1px solid #dfe7eb;text-align:right;vertical-align:top}
+.article-table th{background:#133449;color:#fff}.article-table tr:nth-child(even){background:#f7f9fa}
+.faq-item{border-bottom:1px solid #e1e8eb;padding:20px 0}.faq-item h3{margin:0 0 8px}
+.article-cta{margin-top:60px;padding:35px;background:#102f43;color:#fff;border-radius:18px}
+.article-cta h2{color:#fff;margin:0 0 12px}.article-cta p{color:#d9e5eb}.article-cta .btn{margin-top:15px}
+@media(max-width:800px){.article-hero{padding:120px 0 50px}.article-layout{grid-template-columns:1fr;padding:0 20px}.article-toc{position:static}.article-content{font-size:16px}.article-content h2{font-size:26px}.article-table{font-size:13px;display:block;overflow-x:auto}}
