@@ -214,20 +214,6 @@ input {
   gap: 12px;
   margin-top: 35px;
 }
-.hero-tags {
-  display: flex;
-  gap: 9px;
-  margin-top: 34px;
-  flex-wrap: wrap;
-}
-.hero-tags span {
-  font-size: 12px;
-  border: 1px solid var(--line);
-  background: #fff;
-  padding: 6px 12px;
-  border-radius: 99px;
-  color: var(--steel);
-}
 .hero-visual {
   height: 600px;
   position: relative;
