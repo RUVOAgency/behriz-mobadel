@@ -144,37 +144,3 @@ if (liquidCursor && matchMedia("(pointer:fine)").matches) {
       }),
     );
 }
-const clientMarquee = document.querySelector(".marquee-track");
-if (clientMarquee) {
-  const logos = [...clientMarquee.children];
-  const primaryGroup = document.createElement("div");
-  primaryGroup.className = "marquee-group";
-  logos.forEach((logo) => primaryGroup.appendChild(logo));
-
-  const duplicateGroup = primaryGroup.cloneNode(true);
-  duplicateGroup.setAttribute("aria-hidden", "true");
-  duplicateGroup.querySelectorAll("img").forEach((image) => {
-    image.alt = "";
-  });
-
-  clientMarquee.replaceChildren(primaryGroup, duplicateGroup);
-
-  let marqueeOffset = 0;
-  let lastMarqueeFrame = performance.now();
-  const marqueeSpeed = matchMedia("(max-width: 600px)").matches ? 30 : 38;
-
-  const runClientMarquee = (now) => {
-    const elapsed = Math.min((now - lastMarqueeFrame) / 1000, 0.05);
-    lastMarqueeFrame = now;
-    const loopWidth = primaryGroup.getBoundingClientRect().width;
-
-    if (loopWidth > 0) {
-      marqueeOffset = (marqueeOffset + marqueeSpeed * elapsed) % loopWidth;
-      clientMarquee.style.transform = `translate3d(${-marqueeOffset}px,0,0)`;
-    }
-
-    requestAnimationFrame(runClientMarquee);
-  };
-
-  requestAnimationFrame(runClientMarquee);
-}
