@@ -64,6 +64,7 @@ html[lang="en"] .hero-actions{
   }
   .hero-inner{
     min-height:590px;
+    justify-content:center;
   }
   .hero-visual{
     height:590px;
@@ -75,7 +76,7 @@ html[lang="en"] .hero-actions{
   }
   .hero-copy{
     width:calc(100% - 18px);
-    margin:20px auto 0;
+    margin:auto;
     padding:20px 18px;
     border-radius:22px;
     background:linear-gradient(145deg,rgba(255,255,255,.42) 0%,rgba(231,244,252,.16) 48%,rgba(255,255,255,.26) 100%);
@@ -86,6 +87,8 @@ html[lang="en"] .hero-actions{
   .hero .eyebrow{
     font-size:10px;
     letter-spacing:1.1px;
+    color:#fff;
+    text-shadow:0 1px 8px rgba(7,28,47,.48);
   }
   .hero h1{
     font-size:31px;
@@ -96,6 +99,8 @@ html[lang="en"] .hero-actions{
     margin:0;
     font-size:13px;
     line-height:1.6;
+    color:#fff;
+    text-shadow:0 1px 8px rgba(7,28,47,.52);
   }
   .hero-actions{
     gap:8px;
@@ -108,7 +113,7 @@ html[lang="en"] .hero-actions{
     line-height:1.35;
   }
   html[lang="en"] .hero-copy{
-    margin:20px auto 0;
+    margin:auto;
     padding:20px 18px;
   }
   html[lang="en"] .hero h1{
