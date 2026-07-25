@@ -4,13 +4,12 @@
 .clients-heading h2{font-size:36px;margin:10px 0 0}
 .clients-heading>p{max-width:440px;color:#71818d;font-size:13px;margin:0}
 .marquee-window{width:100%;overflow:hidden;position:relative;padding:18px 0 28px;mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
-.marquee-track{display:flex;width:max-content;gap:18px;direction:ltr;will-change:transform;transform:translate3d(0,0,0)}
+.marquee-track{display:flex;width:max-content;gap:0;direction:ltr;will-change:transform;transform:translate3d(0,0,0);backface-visibility:hidden}
+.marquee-group{display:flex;flex:none;gap:18px;padding-inline-end:18px}
 .client-logo{flex:0 0 190px;width:190px;height:120px;padding:18px;border:1px solid rgba(255,255,255,.88);border-radius:20px;background:linear-gradient(145deg,rgba(255,255,255,.76),rgba(231,240,246,.48));box-shadow:0 14px 35px rgba(11,31,51,.07),inset 0 1px 0 #fff;backdrop-filter:blur(18px) saturate(140%);display:flex;align-items:center;justify-content:center;transition:.3s;position:relative;overflow:hidden}
 .client-logo:after{content:'';position:absolute;width:75px;height:180%;left:-100px;top:-40%;transform:rotate(16deg);background:linear-gradient(90deg,transparent,rgba(255,255,255,.7),transparent);transition:left .6s}
 .client-logo:hover{transform:translateY(-5px);border-color:rgba(39,135,183,.3);box-shadow:0 22px 45px rgba(11,31,51,.13)}
 .client-logo:hover:after{left:230px}
 .client-logo img{display:block;width:100%;height:100%;object-fit:contain;filter:contrast(1.08);position:relative;z-index:1}
-.clients-note{display:flex;align-items:center;gap:15px;color:#9aa6ad;font-size:9px}
-.clients-note i{height:1px;background:#d7e0e5;flex:1}
 @media(max-width:900px){.clients-heading{display:block}.clients-heading>p{margin-top:15px}.client-logo{flex-basis:165px;width:165px;height:105px;padding:15px}}
-@media(max-width:600px){.clients-marquee{padding:75px 0 55px}.clients-heading h2{font-size:28px}.clients-heading>p{font-size:11px}.client-logo{flex-basis:145px;width:145px;height:92px;padding:13px;border-radius:16px}.clients-note span{display:none}}
+@media(max-width:600px){.clients-marquee{padding:75px 0 55px}.clients-heading h2{font-size:28px}.clients-heading>p{font-size:11px}.client-logo{flex-basis:145px;width:145px;height:92px;padding:13px;border-radius:16px}}
