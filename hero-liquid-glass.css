@@ -70,6 +70,7 @@ html[lang="en"] .hero-actions{
     inset:0 -14px;
   }
   .hero-visual > img{
+    content:url("assets/behriz-mobile-hero-editorial-1080x1600.webp");
     object-position:center 58%;
   }
   .hero-copy{
