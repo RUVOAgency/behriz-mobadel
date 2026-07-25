@@ -1,10 +1,7 @@
 (() => {
-  const currentHost = location.hostname.toLowerCase().replace(/^www\./, "");
-  if (currentHost === "behrizmobadel.ir") {
-    const persianPath = location.pathname.replace(/^\/en\//, "/");
-    location.replace(`${persianPath}${location.search}${location.hash}`);
-    return;
-  }
+  const englishPath = location.pathname;
+  const persianPath = englishPath.replace(/^\/en\//, "/");
+  const persianUrl = `${persianPath}${location.search}${location.hash}`;
   const ltrStyles = document.createElement("link");
   ltrStyles.rel = "stylesheet";
   ltrStyles.href = "en/en.css";
@@ -212,7 +209,7 @@
   document.querySelectorAll(".lang").forEach((button) => {
     button.textContent = "FA";
     button.setAttribute("aria-label", "Persian version");
-    button.addEventListener("click", () => { location.href = "../index.html"; });
+    button.addEventListener("click", () => { location.href = persianUrl; });
   });
 
   addEventListener("DOMContentLoaded", () => {
@@ -229,7 +226,7 @@
     if (actions && !actions.querySelector(".language-switch") && !actions.querySelector(".lang")) {
       const link = document.createElement("a");
       link.className = "lang language-switch";
-      link.href = "https://behrizmobadel.ir/";
+      link.href = persianUrl;
       link.textContent = "FA";
       link.setAttribute("aria-label", "Persian version");
       actions.prepend(link);
