@@ -1,0 +1,13 @@
+html[dir="ltr"] body { direction: ltr; text-align: left; }
+html[dir="ltr"] .desktop-nav,
+html[dir="ltr"] .nav-actions,
+html[dir="ltr"] .hero-actions,
+html[dir="ltr"] .stage-meta,
+html[dir="ltr"] .contact-actions { direction: ltr; }
+html[dir="ltr"] input,
+html[dir="ltr"] textarea,
+html[dir="ltr"] select { direction: ltr; text-align: left; }
+html[dir="ltr"] .text-link,
+html[dir="ltr"] .btn { letter-spacing: .01em; }
+html[dir="ltr"] .floating-contact-stack { left: auto; right: 22px; }
+html[dir="ltr"] .mobile-menu { text-align: left; }
