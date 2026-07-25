@@ -1,0 +1,9 @@
+.liquid-cursor {
+  opacity: 0;
+  transition: opacity 160ms ease;
+  will-change: transform;
+}
+
+.liquid-cursor.is-visible {
+  opacity: 1;
+}
