@@ -1,0 +1,7 @@
+@font-face{font-family:'Alibaba';src:url('assets/fonts/Alibaba-Light.ttf') format('truetype');font-style:normal;font-weight:300;font-display:swap}
+@font-face{font-family:'Alibaba';src:url('assets/fonts/Alibaba-Regular.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:'Alibaba';src:url('assets/fonts/Alibaba-Bold.ttf') format('truetype');font-style:normal;font-weight:700;font-display:swap}
+@font-face{font-family:'Alibaba';src:url('assets/fonts/Alibaba-Black.ttf') format('truetype');font-style:normal;font-weight:900;font-display:swap}
+html,body,button,input,textarea,select{font-family:'Alibaba',Tahoma,Arial,sans-serif!important}
+.hero h1,.section-head h2,.featured h2,.product-intro h1,.inner-hero h1,.about-hero h1,.about-home-copy h2,.contact h2{font-family:'Alibaba',Tahoma,Arial,sans-serif;font-weight:900}
+.btn,.desktop-nav,.mobile-menu,.landing-product-body h3,.catalog-card h2,.product-content h2{font-family:'Alibaba',Tahoma,Arial,sans-serif;font-weight:700}
