@@ -49,12 +49,37 @@
     "اجرا": "Operation",
     "دستی و اتوماتیک": "Manual & Automatic",
     "دریافت پیشنهاد فنی": "Request a Technical Proposal",
+    "دریافت پیشنهاد فنی ←": "Request a Technical Proposal →",
+    "راهکار آماده‌سازی آب": "Water Preparation Solution",
+    "آب پایدار برای یک فرایند پایدار": "Reliable Water for a Reliable Process",
+    "آماده‌سازی آب ورودی متناسب با کیفیت آب و نیاز خط، پایه عملکرد مطمئن تجهیزات پایین‌دست است.": "Preparing the incoming water for its actual quality and process requirements is the foundation of reliable downstream performance.",
+    "هدف": "Objective",
+    "طراحی": "Design",
+    "متناسب با خط": "Line-Specific",
+    "یکپارچگی": "Integration",
+    "با تجهیزات موجود": "With Existing Equipment",
+    "راهکار اختلاط": "Mixing Solution",
+    "فرمولاسیون دقیق و تکرارپذیر": "Precise, Repeatable Formulation",
+    "میکسرهای فرایندی، آزمایشگاهی و هموژنایزر برای دستیابی به اختلاط یکنواخت و کیفیت پایدار محصول.": "Process mixers, laboratory mixers, and homogenisers engineered for uniform blending and consistent product quality.",
+    "کاربرد": "Application",
+    "غذایی و نوشیدنی": "Food & Beverage",
+    "راهکار دی‌اریشن آب سرد": "Cold-Water Deaeration Solution",
+    "حذف اکسیژن محلول، حفظ کیفیت نوشیدنی": "Remove Dissolved Oxygen, Preserve Beverage Quality",
+    "دی‌اریتور آب سرد بهریز مبدل با فرایند وکیوم، اکسیژن و گازهای محلول را از آب جدا می‌کند؛ راهکاری تمام‌اتوماتیک برای خطوط نوشابه، آبمیوه، ماءالشعیر و سایر نوشیدنی‌های گازدار.": "Behriz Mobadel cold-water deaerators use vacuum processing to remove oxygen and dissolved gases—providing a fully automatic solution for soft drinks, juices, malt beverages, and other carbonated products.",
+    "کنترل": "Control",
+    "تمام‌اتوماتیک": "Fully Automatic",
+    "راهکار پاستوریزاسیون": "Pasteurisation Solution",
+    "کنترل حرارتی در فضای کمتر": "Thermal Control in a Smaller Footprint",
+    "تونل پاستوریزه اسپیرال برای فرایند حرارتی پیوسته با طراحی کم‌جا و قابلیت تطبیق با ظرفیت خط.": "A compact spiral tunnel pasteuriser for continuous thermal processing, engineered to match the production-line capacity.",
+    "ساختار": "Configuration",
+    "اسپیرال کم‌جا": "Compact Spiral",
     "از سال ۱۳۷۷": "Since 1998",
     "درباره بهریز مبدل": "About Behriz Mobadel",
     "بیش از دو دهه طراحی و ساخت تجهیزات فرایندی": "Over Two Decades of Process Equipment Engineering",
     "شرکت تولیدی صنعتی بهریز مبدل برای طراحی و ساخت تجهیزات و ماشین‌آلات خطوط تولید صنایع غذایی و نوشیدنی تأسیس شد و در ادامه، فعالیت تخصصی خود را در تولید مونوپمپ، فیلترهای صفحه‌ای و کندل فیلترهای مبتنی بر نمونه‌های معتبر اروپایی توسعه داد.": "Behriz Mobadel was founded to design and manufacture equipment for food and beverage production lines, later developing specialist expertise in progressing cavity pumps, plate filters, and candle filters inspired by established European systems.",
     "امروز این شرکت مجموعه‌ای کامل از تجهیزات فیلتراسیون، پمپاژ، اختلاط، دی‌اریشن، انتقال مواد، پاستوریزاسیون، مخازن و سیستم‌های شست‌وشو را متناسب با شرایط صنعت ایران طراحی و تولید می‌کند.": "Today, the company engineers a complete portfolio of filtration, pumping, mixing, deaeration, conveying, pasteurisation, tank, and cleaning systems for demanding industrial applications.",
     "داستان بهریز مبدل": "Our Story",
+    "داستان بهریز مبدل ←": "Our Story →",
     "مشتریان بهریز مبدل": "Behriz Mobadel Clients",
     "اعتماد برندهای پیشرو صنعت ایران": "Trusted by Leading Industrial Brands",
     "تجهیزات و راهکارهای بهریز مبدل در خطوط تولید مجموعه‌های مطرح صنایع غذایی و نوشیدنی ایران به کار گرفته شده‌اند.": "Behriz Mobadel equipment and process solutions operate in leading food and beverage production facilities.",
@@ -124,6 +149,18 @@
     "سیستم CIP": "CIP System",
     "میکسر هموژنایزر": "Homogeniser Mixer",
     "مشاهده مشخصات فنی": "View Specifications",
+    "مشاهده مشخصات فنی ←": "View Specifications →",
+    "ظرفیت ۴٬۰۰۰ تا ۴۰٬۰۰۰ لیتر در ساعت": "Capacity: 4,000–40,000 litres per hour",
+    "ظرفیت ۱۰٬۰۰۰ تا ۳۵٬۰۰۰ لیتر در ساعت": "Capacity: 10,000–35,000 litres per hour",
+    "ظرفیت ۱۵٬۰۰۰ تا ۲۵٬۰۰۰ لیتر در ساعت": "Capacity: 15,000–25,000 litres per hour",
+    "ظرفیت ۲٬۰۰۰ تا ۲۰٬۰۰۰ لیتر در ساعت": "Capacity: 2,000–20,000 litres per hour",
+    "ظرفیت ۵۰ تا ۵۰٬۰۰۰ لیتر در ساعت": "Capacity: 50–50,000 litres per hour",
+    "۴٬۰۰۰ تا ۴۰٬۰۰۰ L/H": "4,000–40,000 L/H",
+    "انتقال سیالات غلیظ در سایزهای مختلف": "Transfer of viscous fluids across multiple sizes",
+    "تک‌جداره، دوجداره و سه‌جداره": "Single-, double-, and triple-wall configurations",
+    "قابل ساخت در مدل دستی و اتوماتیک": "Available in manual and automatic configurations",
+    "مطالعه مقاله ←": "Read Article →",
+    "ارسال برای بررسی فنی ←": "Submit for Technical Review →",
     "اختلاط": "Mixing",
     "سوابق اجرایی": "Project Experience",
     "تجربه اجرا در ایران": "Delivery Experience in Iran",
@@ -165,6 +202,9 @@
     "ارتباط با ما": "Contact Us",
     "واتساپ و مشاوره فنی": "WhatsApp & Technical Consultation",
     "تماس: ۸ تا ۱۶ | واتساپ: ۲۴ ساعته": "Calls: 08:00–16:00 | WhatsApp: 24/7",
+    "طراحی و ساخت سیستم‌های فیلتراسیون و تجهیزات فرایندی صنایع غذایی و نوشیدنی از سال ۱۳۷۷": "Engineering and manufacturing filtration systems and process equipment for the food and beverage industry since 1998.",
+    "۰۲۱ ۵۶۴۱ ۷۴۹۴": "+98 21 5641 7494",
+    "در حال انتقال به واتساپ…": "Opening WhatsApp…",
     "محصول": "Product",
     "مشخصات فنی تجهیزات فرایندی و ماشین‌آلات صنایع غذایی ساخت بهریز مبدل.": "Technical specifications for Behriz Mobadel food and beverage process equipment.",
     "راهنمای انتخاب کندل فیلتر": "Candle Filter Selection Guide",
@@ -173,16 +213,18 @@
     "بازگشت به مرکز دانش": "Back to Knowledge Centre"
   }));
 
+  const normaliseText = (value) => value.replace(/\s+/g, " ").trim();
+
   const replaceText = (root = document.body) => {
     const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
     const nodes = [];
     while (walker.nextNode()) nodes.push(walker.currentNode);
     nodes.forEach((node) => {
       const raw = node.nodeValue;
-      const key = raw.trim();
+      const key = normaliseText(raw);
       if (!key) return;
       const translated = translations.get(key);
-      if (translated) node.nodeValue = raw.replace(key, translated);
+      if (translated) node.nodeValue = raw.replace(raw.trim(), translated);
     });
   };
 
@@ -194,9 +236,24 @@
   document.querySelectorAll("[alt],[aria-label],[placeholder]").forEach((el) => {
     ["alt", "aria-label", "placeholder"].forEach((attr) => {
       const value = el.getAttribute(attr);
-      if (value && translations.has(value)) el.setAttribute(attr, translations.get(value));
+      const key = value ? normaliseText(value) : "";
+      if (key && translations.has(key)) el.setAttribute(attr, translations.get(key));
     });
   });
+
+  const translationObserver = new MutationObserver((mutations) => {
+    mutations.forEach((mutation) => {
+      mutation.addedNodes.forEach((node) => {
+        if (node.nodeType === Node.TEXT_NODE) {
+          const key = normaliseText(node.nodeValue || "");
+          if (translations.has(key)) node.nodeValue = translations.get(key);
+        } else if (node.nodeType === Node.ELEMENT_NODE) {
+          replaceText(node);
+        }
+      });
+    });
+  });
+  translationObserver.observe(document.body, { childList: true, subtree: true });
 
   document.querySelectorAll("a[href]").forEach((a) => {
     const href = a.getAttribute("href");
