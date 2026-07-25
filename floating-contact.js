@@ -35,3 +35,20 @@
   `;
   document.body.appendChild(container);
 })();
+
+/* Tawk.to live support — loaded once across every page using this shared script. */
+(() => {
+  if (window.__behrizTawkLoaded) return;
+  window.__behrizTawkLoaded = true;
+
+  window.Tawk_API = window.Tawk_API || {};
+  window.Tawk_LoadStart = new Date();
+
+  const script = document.createElement("script");
+  const firstScript = document.getElementsByTagName("script")[0];
+  script.async = true;
+  script.src = "https://embed.tawk.to/6a650b89c02a651d48da9e41/1judba51a";
+  script.charset = "UTF-8";
+  script.setAttribute("crossorigin", "*");
+  firstScript.parentNode.insertBefore(script, firstScript);
+})();
