@@ -29,7 +29,46 @@ window.PRODUCTS = [
     cat: "فیلتراسیون",
     name: "فیلتر کارتریج تک",
     en: "Single Cartridge Filter Housing",
-    image: "assets/candle-detail.jpg",
+    image: "assets/cartridge-filter-hero.webp",
+    gallery: [
+      {
+        image: "assets/cartridge-filter-housing.webp",
+        title: "هوزینگ و آرایش کارتریج‌ها",
+        text: "بدنه استنلس استیل با آرایش ۵ یا ۹ کارتریج و هوزینگ‌های ۱۲، ۱۸ و ۲۴ اینچ، متناسب با ظرفیت و دقت موردنیاز خط طراحی می‌شود.",
+      },
+      {
+        image: "assets/cartridge-filter-sealing.webp",
+        title: "اتصال و آب‌بندی صنعتی",
+        text: "فلنج پیچ‌ومهره‌ای، گسکت محیطی و اتصالات بهداشتی، آب‌بندی مطمئن دستگاه را در فشار کاری و چرخه شست‌وشو فراهم می‌کنند.",
+      },
+    ],
+    process: [
+      {
+        number: "01",
+        title: "ورود سیال و پایش فشار",
+        text: "سیال از ورودی جانبی وارد هوزینگ می‌شود و فشار ورودی توسط گیج قبل از مرحله فیلتراسیون کنترل می‌گردد.",
+        image: "assets/cartridge-filter-flow-inlet.webp",
+      },
+      {
+        number: "02",
+        title: "عبور از کارتریج‌ها",
+        text: "جریان در اطراف کارتریج‌ها توزیع شده و با عبور از مدیای فیلتر، ذرات معلق تا دقت ۲، ۵ یا ۱۰ میکرون جداسازی می‌شوند.",
+        image: "assets/cartridge-filter-flow-cartridges.webp",
+      },
+      {
+        number: "03",
+        title: "خروج سیال فیلترشده",
+        text: "سیال تصفیه‌شده در کلکتور خروجی جمع می‌شود؛ گیج خروجی امکان کنترل اختلاف فشار و وضعیت کارتریج‌ها را فراهم می‌کند.",
+        image: "assets/cartridge-filter-flow-outlet.webp",
+      },
+      {
+        number: "04",
+        title: "بک‌واش، شست‌وشو و تخلیه",
+        text: "آب و هوای فشرده از مسیر اختصاصی وارد می‌شوند و آلودگی‌های جداشده از طریق شیر تخلیه خارج می‌گردند؛ بدون نیاز به بازکردن درب دستگاه.",
+        image: "assets/cartridge-filter-backwash.webp",
+      },
+    ],
+    flowImage: "assets/cartridge-filter-flow-overall.webp",
     summary:
       "فیلتر کارتریج استنلس استیل برای فیلتراسیون دقیق و مرحله نهایی تصفیه سیالات طراحی می‌شود. ساختار بهداشتی، مسیر CIP و سیستم Backwash، شست‌وشوی دستگاه را بدون بازکردن درب امکان‌پذیر می‌کند.",
     application:

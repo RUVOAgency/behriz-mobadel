@@ -35,6 +35,27 @@ const related = PRODUCTS.filter((x) => x.cat === p.cat && x.id !== p.id).slice(
   0,
   3,
 );
+const gallerySection = p.gallery
+  ? `<section class="product-anatomy"><div class="container">
+      <div class="section-head"><div><span class="eyebrow burgundy"><i></i> ساختار دستگاه</span><h2>طراحی مهندسی‌شده برای سرویس و شست‌وشوی مطمئن</h2></div><p>جزئیات داخلی و اتصالات فیلتر کارتریج تک بهریز مبدل</p></div>
+      <div class="anatomy-grid">${p.gallery
+        .map(
+          (item) => `<article><div class="anatomy-image"><img src="${item.image}" alt="${item.title}" loading="lazy"></div><div><h3>${item.title}</h3><p>${item.text}</p></div></article>`,
+        )
+        .join("")}</div>
+    </div></section>`
+  : "";
+const processSection = p.process
+  ? `<section class="filter-process"><div class="container">
+      <div class="section-head"><div><span class="eyebrow light"><i></i> HOW IT WORKS</span><h2>نحوه عملکرد فیلتر کارتریج</h2></div><p>مسیر سیال از ورود تا فیلتراسیون و چرخه بک‌واش</p></div>
+      ${p.flowImage ? `<figure class="overall-flow"><img src="${p.flowImage}" alt="شماتیک کامل مسیر جریان فیلتر کارتریج" loading="lazy"><figcaption>نمای کلی مسیر جریان، فیلتراسیون و بک‌واش</figcaption></figure>` : ""}
+      <div class="process-steps">${p.process
+        .map(
+          (step) => `<article><div class="process-step-copy"><span>${step.number}</span><h3>${step.title}</h3><p>${step.text}</p></div><div class="process-step-image"><img src="${step.image}" alt="${step.title}" loading="lazy"></div></article>`,
+        )
+        .join("")}</div>
+    </div></section>`
+  : "";
 
 document.querySelector("#product-page").innerHTML = `
   <section class="product-hero"><div class="container product-hero-grid">
@@ -47,4 +68,6 @@ document.querySelector("#product-page").innerHTML = `
     <div><span class="eyebrow burgundy"><i></i> کاربرد</span><h2>کاربرد دستگاه</h2><p>${p.application}</p><span class="eyebrow burgundy"><i></i> مزایا</span><h2>مزیت‌های محصول</h2><ul class="benefit-list">${p.benefits.map((x) => `<li>${x}</li>`).join("")}</ul></div>
     <aside><span>TECHNICAL DATA</span><h2>مشخصات فنی</h2><dl>${p.specs.map((x) => `<div><dt>${x[0]}</dt><dd>${x[1]}</dd></div>`).join("")}</dl><small>مشخصات نهایی براساس محصول، ظرفیت و شرایط خط تولید تعیین می‌شود.</small></aside>
   </div></section>
+  ${gallerySection}
+  ${processSection}
   <section class="related"><div class="container"><h2>محصولات مرتبط</h2><div class="related-grid">${related.map((x) => `<a href="product.html?id=${x.id}"><img src="${x.image}" alt="${x.name}"><b>${x.name}</b><span>مشاهده ←</span></a>`).join("")}</div></div></section>`;
