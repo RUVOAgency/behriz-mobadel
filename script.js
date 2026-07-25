@@ -107,21 +107,15 @@ document.querySelector("#lead-form").addEventListener("submit", (e) => {
 });
 const liquidCursor = document.querySelector(".liquid-cursor");
 if (liquidCursor && matchMedia("(pointer:fine)").matches) {
-  let tx = innerWidth / 2,
-    ty = innerHeight / 2,
-    x = tx,
-    y = ty;
-  addEventListener("mousemove", (e) => {
-    tx = e.clientX;
-    ty = e.clientY;
-  });
-  const move = () => {
-    x += (tx - x) * 0.14;
-    y += (ty - y) * 0.14;
-    liquidCursor.style.transform = `translate3d(${x}px,${y}px,0)`;
-    requestAnimationFrame(move);
+  const placeCursor = (e) => {
+    liquidCursor.style.transform = `translate3d(${e.clientX}px,${e.clientY}px,0)`;
+    liquidCursor.classList.add("is-visible");
   };
-  move();
+  addEventListener("pointermove", placeCursor, { passive: true });
+  addEventListener("pointerleave", () =>
+    liquidCursor.classList.remove("is-visible"),
+  );
+  addEventListener("pointerenter", placeCursor, { passive: true });
   document
     .querySelectorAll("a,button,.landing-product-card,.process-nav button")
     .forEach((el) => {
