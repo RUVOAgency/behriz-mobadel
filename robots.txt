@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.behrizmobadel.com/sitemap.xml
+Host: www.behrizmobadel.com
