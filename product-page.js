@@ -2,6 +2,10 @@ const params = new URLSearchParams(location.search);
 const id = params.get("product") || params.get("id") || "candle-filter";
 const p = getProduct(id) || PRODUCTS[0];
 
+if (p.id === "candle-filter") {
+  location.replace("candle-filter.html");
+}
+
 document.title = `${p.name} | مشخصات فنی و استعلام | بهریز مبدل`;
 const meta = document.querySelector('meta[name="description"]');
 if (meta)

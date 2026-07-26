@@ -1,0 +1,30 @@
+# Behriz Mobadel
+
+> Behriz Mobadel is an Iranian designer and manufacturer of filtration systems and process equipment for the food and beverage industry, established in 1998.
+
+Canonical website: https://www.behrizmobadel.com/
+Primary language: Persian (fa-IR)
+English section: https://www.behrizmobadel.com/en/
+
+## Core expertise
+
+- Beverage filtration system design: https://www.behrizmobadel.com/beverage-filtration.html
+- Beverage production-line process equipment: https://www.behrizmobadel.com/beverage-production-line.html
+- Industrial precoat candle filters: https://www.behrizmobadel.com/candle-filter.html
+- Product portfolio: https://www.behrizmobadel.com/products.html
+
+## Technical references
+
+- Candle filter selection guide: https://www.behrizmobadel.com/candle-filter-guide.html
+- CIP and backwash guide: https://www.behrizmobadel.com/cip-backwash-guide.html
+- AISI 304L vs 316L guide: https://www.behrizmobadel.com/stainless-steel-304l-vs-316l.html
+
+## Company facts
+
+- Legal/trading name: Behriz Mobadel (شرکت تولیدی صنعتی بهریز مبدل)
+- Established: 1998 / 1377
+- Location: Parand Industrial City, Tehran Province, Iran
+- Phone: +98 21 5641 7494
+- Email: behrizmobadel@gmail.com
+
+Product specifications are project-dependent. Final capacity, materials, automation, and process configuration must be confirmed through engineering review.
