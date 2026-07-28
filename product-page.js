@@ -20,15 +20,21 @@ const schema = document.createElement("script");
 schema.type = "application/ld+json";
 schema.textContent = JSON.stringify({
   "@context": "https://schema.org",
-  "@type": "Product",
+  "@type": "Service",
   name: p.name,
   description: p.summary,
   image: `https://www.behrizmobadel.com/${p.image}`,
-  brand: { "@type": "Brand", name: "بهریز مبدل" },
-  manufacturer: {
+  serviceType: `${p.name}؛ طراحی و ساخت سفارشی تجهیزات فرایندی`,
+  provider: {
     "@type": "Organization",
     name: "شرکت تولیدی صنعتی بهریز مبدل",
+    url: "https://www.behrizmobadel.com/",
   },
+  areaServed: {
+    "@type": "Country",
+    name: "Iran",
+  },
+  url: canonical.href,
 });
 document.head.appendChild(schema);
 

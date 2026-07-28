@@ -9,7 +9,24 @@ canonical.href = `https://www.behrizmobadel.com/en/product.html?product=${encode
 document.head.appendChild(canonical);
 const schema = document.createElement("script");
 schema.type = "application/ld+json";
-schema.textContent = JSON.stringify({"@context":"https://schema.org","@type":"Product",name:p.name,description:p.summary,image:`https://www.behrizmobadel.com/${p.image}`,brand:{"@type":"Brand",name:"Behriz Mobadel"},manufacturer:{"@type":"Organization",name:"Behriz Mobadel Industrial Manufacturing Co."}});
+schema.textContent = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: p.name,
+  description: p.summary,
+  image: `https://www.behrizmobadel.com/${p.image}`,
+  serviceType: `Custom engineering and manufacture of ${p.name}`,
+  provider: {
+    "@type": "Organization",
+    name: "Behriz Mobadel Industrial Manufacturing Co.",
+    url: "https://www.behrizmobadel.com/",
+  },
+  areaServed: {
+    "@type": "Country",
+    name: "Iran",
+  },
+  url: canonical.href,
+});
 document.head.appendChild(schema);
 const whatsappText = encodeURIComponent(`Hello, I would like a consultation and quotation for ${p.name}.`);
 const related = PRODUCTS.filter((item) => item.cat === p.cat && item.id !== p.id).slice(0, 3);
