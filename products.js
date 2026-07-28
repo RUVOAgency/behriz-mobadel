@@ -5,7 +5,10 @@ const staticRoutes={
   'cold-water-deaerator':'cold-water-deaerator.html',
   'mono-pump':'mono-pump.html',
   'cip-system':'cip-system.html',
-  'stainless-tanks':'stainless-steel-tanks.html'
+  'stainless-tanks':'stainless-steel-tanks.html',
+  'kieselguhr-filter':'kieselguhr-filter.html',
+  'spiral-pasteurizer':'spiral-pasteurizer.html',
+  'homogenizer-mixer':'homogenizer-mixer.html'
 };
 const productUrl=p=>staticRoutes[p.id]||`product.html?id=${p.id}`;
 const cats=['همه',...new Set(PRODUCTS.map(p=>p.cat))];
