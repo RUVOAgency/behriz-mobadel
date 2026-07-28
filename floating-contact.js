@@ -52,3 +52,64 @@
   script.setAttribute("crossorigin", "*");
   firstScript.parentNode.insertBefore(script, firstScript);
 })();
+
+
+/* GA4 lead-intent tracking — shared across pages that load this script. */
+(() => {
+  if (window.__behrizLeadTrackingLoaded) return;
+  window.__behrizLeadTrackingLoaded = true;
+
+  const sendEvent = (name, params = {}) => {
+    if (typeof window.gtag !== "function") return;
+    window.gtag("event", name, {
+      ...params,
+      page_location: window.location.href,
+      page_title: document.title
+    });
+  };
+
+  document.addEventListener("click", (event) => {
+    const link = event.target.closest("a[href]");
+    if (!link) return;
+    const href = link.getAttribute("href") || "";
+
+    if (href.startsWith("tel:")) {
+      sendEvent("generate_lead", {
+        lead_type: "phone_call",
+        link_url: link.href,
+        link_text: (link.textContent || "").trim().slice(0, 100)
+      });
+    } else if (/wa\.me|whatsapp\.com/i.test(href)) {
+      sendEvent("generate_lead", {
+        lead_type: "whatsapp",
+        link_url: link.href,
+        link_text: (link.textContent || "").trim().slice(0, 100)
+      });
+    } else if (href.startsWith("mailto:")) {
+      sendEvent("generate_lead", {
+        lead_type: "email",
+        link_url: link.href,
+        link_text: (link.textContent || "").trim().slice(0, 100)
+      });
+    }
+  });
+
+  document.addEventListener("submit", (event) => {
+    const form = event.target;
+    if (!(form instanceof HTMLFormElement)) return;
+    sendEvent("generate_lead", {
+      lead_type: "form_submit",
+      form_id: form.id || undefined,
+      form_name: form.getAttribute("name") || undefined
+    });
+  });
+
+  window.Tawk_API = window.Tawk_API || {};
+  const previousChatStarted = window.Tawk_API.onChatStarted;
+  window.Tawk_API.onChatStarted = function () {
+    sendEvent("generate_lead", { lead_type: "live_chat" });
+    if (typeof previousChatStarted === "function") {
+      previousChatStarted.apply(this, arguments);
+    }
+  };
+})();
