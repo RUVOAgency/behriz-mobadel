@@ -16,6 +16,10 @@
   }
 
   addEventListener("DOMContentLoaded", () => {
+    document
+      .querySelectorAll('.site-header a[href="#contact"], .site-header a[href="index.html#contact"]')
+      .forEach((link) => link.setAttribute("href", "contact.html"));
+
     const actions = document.querySelector(".nav-actions");
     if (!actions) return;
 
