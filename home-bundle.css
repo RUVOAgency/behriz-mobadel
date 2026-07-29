@@ -1578,7 +1578,8 @@ html,body,button,input,textarea,select{font-family:'Alibaba',Tahoma,Arial,sans-s
   right:2%;
   display:flex;
   align-items:center;
-  color:var(--navy);
+  color:#fff;
+  text-shadow:0 1px 8px rgba(3,15,25,.5);
 }
 .hero-callout:before{
   content:"";
@@ -1602,7 +1603,7 @@ html,body,button,input,textarea,select{font-family:'Alibaba',Tahoma,Arial,sans-s
 .hero-callout span{min-width:170px}
 .hero-callout b,.hero-callout small{display:block}
 .hero-callout b{font-size:16px}
-.hero-callout small{margin-top:4px;color:#7b8a95;font-size:11px}
+.hero-callout small{margin-top:4px;color:#d9e1e6;font-size:11px}
 .hero-product-rail{
   position:relative;
   z-index:6;
