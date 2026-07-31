@@ -2,8 +2,22 @@ const params = new URLSearchParams(location.search);
 const id = params.get("product") || params.get("id") || "candle-filter";
 const p = getProduct(id) || PRODUCTS[0];
 
-if (p.id === "candle-filter") {
-  location.replace("candle-filter.html");
+const staticRoutes = {
+  "candle-filter": "candle-filter.html",
+  "cartridge-filter": "cartridge-filter.html",
+  "cold-water-deaerator": "cold-water-deaerator.html",
+  "mono-pump": "mono-pump.html",
+  "cip-system": "cip-system.html",
+  "stainless-tanks": "stainless-steel-tanks.html",
+  "kieselguhr-filter": "kieselguhr-filter.html",
+  "spiral-pasteurizer": "spiral-pasteurizer.html",
+  "homogenizer-mixer": "homogenizer-mixer.html",
+};
+const productUrl = (product) =>
+  staticRoutes[product.id] || `product.html?product=${encodeURIComponent(product.id)}`;
+
+if (staticRoutes[p.id]) {
+  location.replace(staticRoutes[p.id]);
 }
 
 document.title = `${p.name} | مشخصات فنی و استعلام | بهریز مبدل`;
@@ -13,7 +27,9 @@ if (meta)
 
 const canonical = document.createElement("link");
 canonical.rel = "canonical";
-canonical.href = `https://www.behrizmobadel.com/product.html?product=${encodeURIComponent(p.id)}`;
+canonical.href = staticRoutes[p.id]
+  ? `https://www.behrizmobadel.com/${staticRoutes[p.id]}`
+  : `https://www.behrizmobadel.com/product.html?product=${encodeURIComponent(p.id)}`;
 document.head.appendChild(canonical);
 
 const schema = document.createElement("script");
@@ -80,4 +96,4 @@ document.querySelector("#product-page").innerHTML = `
   </div></section>
   ${gallerySection}
   ${processSection}
-  <section class="related"><div class="container"><h2>محصولات مرتبط</h2><div class="related-grid">${related.map((x) => `<a href="product.html?id=${x.id}"><img src="${x.image}" alt="${x.name}"><b>${x.name}</b><span>مشاهده ←</span></a>`).join("")}</div></div></section>`;
+  <section class="related"><div class="container"><h2>محصولات مرتبط</h2><div class="related-grid">${related.map((x) => `<a href="${productUrl(x)}"><img src="${x.image}" alt="${x.name}" loading="lazy"><b>${x.name}</b><span>مشاهده ←</span></a>`).join("")}</div></div></section>`;

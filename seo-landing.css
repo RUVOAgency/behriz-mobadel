@@ -17,4 +17,5 @@
 .faq-item h3{margin:0 0 8px}.related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:25px}
 .related-card{padding:22px;border:1px solid #dce5ea;border-radius:16px;color:#0a2945;background:#fff}
 .related-card b{display:block;font-size:18px;margin-bottom:8px}.related-card span{font-size:14px;color:#607585;line-height:1.8}
+.catalog-section>.container>h2{font-size:30px;color:#0a2945;margin:0}.catalog-section>.container>.related-grid{margin-bottom:58px}
 @media(max-width:800px){.seo-hero{padding:115px 0 50px}.seo-layout{grid-template-columns:1fr;padding:48px 0}.seo-aside{position:static}.related-grid{grid-template-columns:1fr}.seo-content table{font-size:13px}.seo-content th,.seo-content td{padding:10px}}

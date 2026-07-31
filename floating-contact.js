@@ -36,21 +36,31 @@
   document.body.appendChild(container);
 })();
 
-/* Tawk.to live support — loaded once across every page using this shared script. */
+/* Tawk.to live support — deferred until the page is idle to protect LCP and INP. */
 (() => {
   if (window.__behrizTawkLoaded) return;
-  window.__behrizTawkLoaded = true;
+  const loadChat = () => {
+    if (window.__behrizTawkLoaded) return;
+    window.__behrizTawkLoaded = true;
+    window.Tawk_API = window.Tawk_API || {};
+    window.Tawk_LoadStart = new Date();
 
-  window.Tawk_API = window.Tawk_API || {};
-  window.Tawk_LoadStart = new Date();
+    const script = document.createElement("script");
+    const firstScript = document.getElementsByTagName("script")[0];
+    script.async = true;
+    script.src = "https://embed.tawk.to/6a650b89c02a651d48da9e41/1judba51a";
+    script.charset = "UTF-8";
+    script.setAttribute("crossorigin", "*");
+    firstScript.parentNode.insertBefore(script, firstScript);
+  };
 
-  const script = document.createElement("script");
-  const firstScript = document.getElementsByTagName("script")[0];
-  script.async = true;
-  script.src = "https://embed.tawk.to/6a650b89c02a651d48da9e41/1judba51a";
-  script.charset = "UTF-8";
-  script.setAttribute("crossorigin", "*");
-  firstScript.parentNode.insertBefore(script, firstScript);
+  if ("requestIdleCallback" in window) {
+    window.requestIdleCallback(loadChat, { timeout: 8000 });
+  } else {
+    window.addEventListener("load", () => setTimeout(loadChat, 4000), {
+      once: true,
+    });
+  }
 })();
 
 
