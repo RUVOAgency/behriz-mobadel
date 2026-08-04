@@ -428,9 +428,25 @@ window.PRODUCTS = [
   {
     id: "oil-filtration",
     cat: "فیلتراسیون",
-    name: "فیلتر سه‌مرحله‌ای روغن و عصاره",
-    en: "Three-Stage Oil Filtration System",
+    name: "فیلتر سه مرحله‌ای",
+    en: "Three-Stage Filter",
     image: "assets/oil-filter.jpg",
+    galleryEyebrow: "گالری محصول",
+    galleryHeading: "تصاویر تکمیلی فیلتر سه مرحله‌ای",
+    galleryDescription:
+      "نمای سیستم فیلتراسیون و تجهیزات فرایندی متصل در چیدمان صنعتی.",
+    gallery: [
+      {
+        image: "assets/three-stage-filter-system.webp",
+        title: "نمای کامل سیستم سه مرحله‌ای",
+        text: "چیدمان سه‌مرحله‌ای تجهیزات استیل، اتصالات، شیرآلات و پمپ‌های فرایندی.",
+      },
+      {
+        image: "assets/three-stage-filter-process-tank.webp",
+        title: "تجهیزات فرایندی متصل",
+        text: "نمای مخزن و پمپ استیل مورد استفاده در پیکربندی خط فرایندی.",
+      },
+    ],
     summary:
       "سیستم سه‌مرحله‌ای با امکانات تخلیه و شست‌وشو در هر مرحله برای فیلتراسیون عصاره، شربت و روغن در غلظت‌ها و ظرفیت‌های مختلف.",
     application: "فیلتراسیون روغن، عصاره و شربت در صنایع غذایی.",

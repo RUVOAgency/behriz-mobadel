@@ -34,12 +34,16 @@ document.head.appendChild(canonical);
 
 const schema = document.createElement("script");
 schema.type = "application/ld+json";
+const productImages = [
+  p.image,
+  ...(p.gallery || []).map((item) => item.image),
+].map((image) => `https://www.behrizmobadel.com/${image}`);
 schema.textContent = JSON.stringify({
   "@context": "https://schema.org",
   "@type": "Service",
   name: p.name,
   description: p.summary,
-  image: `https://www.behrizmobadel.com/${p.image}`,
+  image: productImages,
   serviceType: `${p.name}؛ طراحی و ساخت سفارشی تجهیزات فرایندی`,
   provider: {
     "@type": "Organization",
@@ -63,7 +67,7 @@ const related = PRODUCTS.filter((x) => x.cat === p.cat && x.id !== p.id).slice(
 );
 const gallerySection = p.gallery
   ? `<section class="product-anatomy"><div class="container">
-      <div class="section-head"><div><span class="eyebrow burgundy"><i></i> ساختار دستگاه</span><h2>طراحی مهندسی‌شده برای سرویس و شست‌وشوی مطمئن</h2></div><p>جزئیات داخلی و اتصالات فیلتر کارتریج تک بهریز مبدل</p></div>
+      <div class="section-head"><div><span class="eyebrow burgundy"><i></i> ${p.galleryEyebrow || "ساختار دستگاه"}</span><h2>${p.galleryHeading || "طراحی مهندسی‌شده برای سرویس و شست‌وشوی مطمئن"}</h2></div><p>${p.galleryDescription || "جزئیات داخلی و اتصالات فیلتر کارتریج تک بهریز مبدل"}</p></div>
       <div class="anatomy-grid">${p.gallery
         .map(
           (item) => `<article><div class="anatomy-image"><img src="${item.image}" alt="${item.title}" loading="lazy"></div><div><h3>${item.title}</h3><p>${item.text}</p></div></article>`,
