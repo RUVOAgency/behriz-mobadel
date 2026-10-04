@@ -17,6 +17,9 @@ English section: https://www.behrizmobadel.com/en/
 
 ## Technical references
 
+- Candle versus cartridge filter comparison: https://www.behrizmobadel.com/candle-vs-cartridge-filter.html
+- Beverage filtration RFQ checklist: https://www.behrizmobadel.com/filtration-rfq-checklist.html
+
 - Dissolved oxygen control and cold-water deaeration: https://www.behrizmobadel.com/en/dissolved-oxygen-beverage-water.html
 - Persian dissolved oxygen guide: https://www.behrizmobadel.com/dissolved-oxygen-beverage-water.html
 
