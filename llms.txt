@@ -17,6 +17,9 @@ English section: https://www.behrizmobadel.com/en/
 
 ## Technical references
 
+- Dissolved oxygen control and cold-water deaeration: https://www.behrizmobadel.com/en/dissolved-oxygen-beverage-water.html
+- Persian dissolved oxygen guide: https://www.behrizmobadel.com/dissolved-oxygen-beverage-water.html
+
 - Candle filter selection guide: https://www.behrizmobadel.com/candle-filter-guide.html
 - CIP and backwash guide: https://www.behrizmobadel.com/cip-backwash-guide.html
 - AISI 304L vs 316L guide: https://www.behrizmobadel.com/stainless-steel-304l-vs-316l.html
