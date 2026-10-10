@@ -27,6 +27,7 @@ English section: https://www.behrizmobadel.com/en/
 
 - Candle filter selection guide: https://www.behrizmobadel.com/candle-filter-guide.html
 - CIP and backwash guide: https://www.behrizmobadel.com/cip-backwash-guide.html
+- CIP automation selection and procurement checklist (Persian): https://www.behrizmobadel.com/cip-manual-vs-automatic.html
 - AISI 304L vs 316L guide: https://www.behrizmobadel.com/stainless-steel-304l-vs-316l.html
 
 - Cartridge-filter pressure-drop troubleshooting (Persian): https://www.behrizmobadel.com/cartridge-filter-pressure-drop.html
