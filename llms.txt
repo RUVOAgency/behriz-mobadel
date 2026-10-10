@@ -29,6 +29,9 @@ English section: https://www.behrizmobadel.com/en/
 - CIP and backwash guide: https://www.behrizmobadel.com/cip-backwash-guide.html
 - AISI 304L vs 316L guide: https://www.behrizmobadel.com/stainless-steel-304l-vs-316l.html
 
+- Cartridge-filter pressure-drop troubleshooting (Persian): https://www.behrizmobadel.com/cartridge-filter-pressure-drop.html
+- Cartridge-filter pressure-drop troubleshooting (English): https://www.behrizmobadel.com/en/cartridge-filter-pressure-drop.html
+
 ## Company facts
 
 - Legal/trading name: Behriz Mobadel (شرکت تولیدی صنعتی بهریز مبدل)
