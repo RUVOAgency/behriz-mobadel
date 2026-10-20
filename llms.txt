@@ -20,6 +20,8 @@ English section: https://www.behrizmobadel.com/en/
 
 ## Technical references
 
+- Deaerator acceptance test and reliable dissolved oxygen measurement checklist (Persian): https://www.behrizmobadel.com/deaerator-dissolved-oxygen-acceptance-test.html
+
 - Beverage filtration pre-purchase sample and pilot test checklist (Persian): https://www.behrizmobadel.com/beverage-filtration-pilot-test.html
 
 - Cartridge filter nominal versus absolute rating and procurement checklist: https://www.behrizmobadel.com/cartridge-filter-nominal-vs-absolute.html
