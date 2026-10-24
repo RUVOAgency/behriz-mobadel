@@ -20,6 +20,9 @@ English section: https://www.behrizmobadel.com/en/
 
 ## Technical references
 
+- 5 vs 9-element industrial cartridge-filter housing selection guide (Persian): https://www.behrizmobadel.com/cartridge-filter-5-vs-9-elements.html
+- 5 vs 9-element industrial cartridge-filter housing selection guide (English): https://www.behrizmobadel.com/en/cartridge-filter-5-vs-9-elements.html
+
 - Industrial filtration total cost of ownership and quotation comparison guide (Persian): https://www.behrizmobadel.com/industrial-filtration-total-cost.html
 
 - Deaerator acceptance test and reliable dissolved oxygen measurement checklist (Persian): https://www.behrizmobadel.com/deaerator-dissolved-oxygen-acceptance-test.html
