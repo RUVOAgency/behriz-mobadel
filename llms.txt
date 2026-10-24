@@ -20,6 +20,8 @@ English section: https://www.behrizmobadel.com/en/
 
 ## Technical references
 
+- Industrial filtration total cost of ownership and quotation comparison guide (Persian): https://www.behrizmobadel.com/industrial-filtration-total-cost.html
+
 - Deaerator acceptance test and reliable dissolved oxygen measurement checklist (Persian): https://www.behrizmobadel.com/deaerator-dissolved-oxygen-acceptance-test.html
 
 - Beverage filtration pre-purchase sample and pilot test checklist (Persian): https://www.behrizmobadel.com/beverage-filtration-pilot-test.html
