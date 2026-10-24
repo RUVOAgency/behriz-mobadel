@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QZ8MS7PGPN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QZ8MS7PGPN');
+  </script>
+  <script src="domain-router.js?v=20261010"></script>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>محاسبه ظرفیت سیستم CIP و چک‌لیست URS خرید | بهریز مبدل</title>
+  <meta name="description" content="راهنمای تعیین دبی، حجم مخزن و ظرفیت سیستم CIP برای صنایع غذایی و نوشیدنی؛ همراه جدول داده‌های لازم، چک‌لیست URS و معیار مقایسه پیشنهاد فنی.">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+  <link rel="canonical" href="https://www.behrizmobadel.com/cip-capacity-sizing-urs.html">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="fa_IR">
+  <meta property="og:title" content="محاسبه ظرفیت سیستم CIP و چک‌لیست URS خرید">
+  <meta property="og:description" content="چطور ظرفیت CIP را از روی مدار واقعی، زمان چرخه و نیازهای کارخانه تعریف کنیم؟">
+  <meta property="og:url" content="https://www.behrizmobadel.com/cip-capacity-sizing-urs.html">
+  <meta property="og:image" content="https://www.behrizmobadel.com/assets/cip.jpg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="inner.css">
+  <link rel="stylesheet" href="article.css">
+  <link rel="stylesheet" href="alibaba-font.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"محاسبه ظرفیت سیستم CIP و چک‌لیست URS خرید","description":"راهنمای تعیین نیازهای هیدرولیکی، حجم مخزن، زمان چرخه و دامنه کنترل برای تهیه استعلام فنی سیستم CIP صنایع غذایی و نوشیدنی.","datePublished":"2026-10-24","dateModified":"2026-10-24","inLanguage":"fa-IR","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.behrizmobadel.com/cip-capacity-sizing-urs.html"},"author":{"@type":"Organization","name":"بهریز مبدل"},"publisher":{"@type":"Organization","name":"بهریز مبدل","logo":{"@type":"ImageObject","url":"https://www.behrizmobadel.com/assets/behriz-logo.svg"}},"image":"https://www.behrizmobadel.com/assets/cip.jpg"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"خانه","item":"https://www.behrizmobadel.com/"},{"@type":"ListItem","position":2,"name":"دانش فنی","item":"https://www.behrizmobadel.com/#knowledge"},{"@type":"ListItem","position":3,"name":"تعیین ظرفیت و URS سیستم CIP","item":"https://www.behrizmobadel.com/cip-capacity-sizing-urs.html"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"ظرفیت سیستم CIP فقط براساس حجم مخزن تولید تعیین می‌شود؟","acceptedAnswer":{"@type":"Answer","text":"خیر. دبی مورد نیاز مدار، حجم نگهداری مسیر، تعداد مدارهای هم‌زمان، زمان مجاز چرخه، بازیابی محلول و ظرفیت گرمایش نیز باید بررسی شوند."}},{"@type":"Question","name":"برای استعلام قیمت CIP چه اطلاعاتی باید ارسال شود؟","acceptedAnswer":{"@type":"Answer","text":"P&ID یا فهرست مدارها، قطر و طول خطوط، تجهیزات مقصد، محصول و آلودگی، برنامه شست‌وشو، یوتیلیتی‌های موجود، سطح اتوماسیون و معیارهای FAT و SAT لازم است."}},{"@type":"Question","name":"آیا یک عدد ثابت برای سرعت و دمای CIP مناسب همه خطوط است؟","acceptedAnswer":{"@type":"Answer","text":"خیر. مقادیر باید برای تجهیز، محصول، جنس قطعات، ماده شوینده و معیار پذیرش همان کارخانه مهندسی و اعتبارسنجی شوند."}}]}]}
+  </script>
+</head>
+<body>
+  <header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html"><img src="assets/behriz-logo.svg" alt="بهریز مبدل"></a><nav class="desktop-nav"><a href="index.html">خانه</a><a href="products.html">محصولات</a><a href="about.html">درباره ما</a><a href="index.html#knowledge">دانش فنی</a><a href="index.html#contact">تماس با ما</a></nav><div class="nav-actions"><a class="btn btn-primary btn-small" href="index.html#contact">درخواست فنی</a></div></div></header>
+  <main>
+    <section class="article-hero"><div class="container"><div class="breadcrumbs"><a href="index.html">خانه</a> / مرکز دانش / سیستم CIP</div><h1>محاسبه ظرفیت سیستم CIP؛ از مدار واقعی تا URS خرید</h1><p class="article-lead">ظرفیت CIP یک عدد آماده در کاتالوگ نیست. باید از روی سخت‌ترین مدار شست‌وشو، محدودیت زمان، حجم مسیر، گرمایش، برگشت محلول و سطح کنترل تعریف شود؛ وگرنه سیستم می‌تواند بزرگ اما ناکارآمد، یا کوچک و محدودکننده تولید باشد.</p><div class="article-meta"><span>انتشار: آبان ۱۴۰۵</span><span>زمان مطالعه: ۱۰ دقیقه</span><span>بهریز مبدل</span></div></div></section>
+    <section class="article-body"><div class="article-layout">
+      <aside class="article-toc"><b>در این راهنما</b><a href="#short-answer">پاسخ کوتاه</a><a href="#inputs">داده‌های پایه</a><a href="#sizing">منطق ظرفیت‌سنجی</a><a href="#urs">چک‌لیست URS</a><a href="#compare">مقایسه پیشنهادها</a><a href="#sources">منابع</a></aside>
+      <article class="article-content">
+        <div class="article-note" id="short-answer"><strong>پاسخ کوتاه:</strong> برای تعیین ظرفیت CIP ابتدا مدار بحرانی را مشخص کنید؛ سپس دبی لازم برای پوشش و شست‌وشوی آن مدار، حجم عملیاتی محلول، زمان گرم‌کردن و گردش، نرخ برگشت، تعداد مدارهای هم‌زمان و ظرفیت یوتیلیتی‌ها را کنار هم بگذارید. حجم مخزن CIP یا توان پمپ نباید جدا از کل چرخه انتخاب شود. خروجی این بررسی باید در یک URS قابل‌اندازه‌گیری ثبت شود تا پیشنهادهای سازندگان واقعاً قابل مقایسه باشند.</div>
+
+        <p>در بسیاری از استعلام‌ها فقط عباراتی مثل «CIP سه مخزنه»، «تمام‌اتوماتیک» یا «برای خط با ظرفیت مشخص» نوشته می‌شود. این اطلاعات برای طراحی کافی نیست. ظرفیت تولید نشان می‌دهد چه مقدار محصول ساخته می‌شود، اما مستقیماً تعیین نمی‌کند چه دبی‌ای برای شست‌وشوی طولانی‌ترین لوله، چه حجم محلولی برای پرکردن مدار، یا چه توان حرارتی برای رسیدن به دمای هدف در زمان مجاز لازم است.</p>
+
+        <h2 id="inputs">هفت داده‌ای که پیش از انتخاب ظرفیت باید جمع شوند</h2>
+        <table class="article-table"><thead><tr><th>داده</th><th>چرا روی ظرفیت اثر دارد؟</th><th>مدرک پیشنهادی</th></tr></thead><tbody>
+          <tr><td><strong>فهرست مدارهای CIP</strong></td><td>هر مدار مقاومت هیدرولیکی، حجم نگهداری و نیاز شست‌وشوی متفاوت دارد.</td><td>P&amp;ID و ماتریس مسیرها</td></tr>
+          <tr><td><strong>قطر، طول و اختلاف ارتفاع</strong></td><td>دبی و هد پمپ باید با مسیر واقعی و افت‌های آن سازگار باشد.</td><td>Isometric یا جدول خطوط</td></tr>
+          <tr><td><strong>تجهیزات مقصد</strong></td><td>مخزن، مبدل، فیلر، فیلتر و شیرها الزام‌های متفاوتی برای جریان و تخلیه دارند.</td><td>دیتاشیت سازنده هر تجهیز</td></tr>
+          <tr><td><strong>محصول و نوع رسوب</strong></td><td>ماهیت آلودگی روی توالی، ماده شوینده، زمان و دمای چرخه اثر می‌گذارد.</td><td>شرح محصول و SOP فعلی</td></tr>
+          <tr><td><strong>زمان مجاز توقف</strong></td><td>ظرفیت گرمایش، تعداد مدار هم‌زمان و سرعت آماده‌سازی را تعیین می‌کند.</td><td>برنامه تولید و Changeover</td></tr>
+          <tr><td><strong>یوتیلیتی‌های واقعی</strong></td><td>بخار، آب، برق، هوای فشرده و پساب می‌توانند گلوگاه ظرفیت باشند.</td><td>فشار، دما و دبی قابل تأمین</td></tr>
+          <tr><td><strong>معیار پذیرش</strong></td><td>بدون هدف تمیزی و روش تأیید، عدد ظرفیت به نتیجه قابل دفاع وصل نمی‌شود.</td><td>الزامات QC، FAT و SAT</td></tr>
+        </tbody></table>
+
+        <h2 id="sizing">منطق ظرفیت‌سنجی سیستم CIP در پنج گام</h2>
+        <h3>۱. مدار بحرانی را پیدا کنید</h3>
+        <p>مدار بحرانی الزاماً طولانی‌ترین مسیر نیست. ممکن است قطر بزرگ‌تر، مبدل با افت فشار بیشتر، تجهیزات دارای نازل شست‌وشو یا محدودیت تخلیه، نیاز سخت‌تری ایجاد کنند. برای هر مدار، مسیر رفت و برگشت و تمام تجهیزاتی که هم‌زمان در حلقه هستند ثبت شود.</p>
+
+        <h3>۲. دبی و هد را به‌صورت یک نقطه کاری تعریف کنید</h3>
+        <p>توان نامی پمپ به‌تنهایی معیار خرید نیست. نقطه کاری باید دبی لازم را در هد حاصل از لوله‌ها، شیرها، مبدل‌ها و اختلاف ارتفاع تأمین کند. Alfa Laval در یک راهنمای کاربردی برای شست‌وشوی لوله‌ها حداقل سرعت ۱٫۵ متر بر ثانیه را به‌عنوان توصیه مطرح می‌کند، اما این عدد نباید بدون بررسی به همه تجهیزات تعمیم داده شود؛ الزامات سازنده تجهیز، قطر لوله، رفتار سیال و اعتبارسنجی سایت اولویت دارند.</p>
+        <div class="article-note"><strong>فرمول اولیه، نه مشخصات نهایی:</strong> برای یک لوله می‌توان دبی نظری را از حاصل‌ضرب سطح مقطع در سرعت هدف برآورد کرد. پس از آن باید افت فشار کل، هم‌زمانی تجهیزات، جریان برگشت و حاشیه کنترلی بررسی شود. انتخاب پمپ فقط با قطر لوله یا توان موتور قابل دفاع نیست.</div>
+
+        <h3>۳. حجم عملیاتی را از حجم مدار جدا کنید</h3>
+        <p>محلول باید حجم نگهداری لوله‌ها و تجهیزات را پر کند و در مخزن همچنان سطح کافی برای جلوگیری از کاویتاسیون، ایجاد جریان پایدار و کنترل برگشت باقی بماند. فضای آزاد مخزن، کف‌کردن، انبساط، محل نازل‌ها و حداقل سطح کاری نیز روی حجم هندسی اثر دارند. بنابراین «حجم مخزن CIP» معمولاً بزرگ‌تر از صرف جمع حجم لوله‌هاست، اما ضریب ثابت عمومی برای همه پروژه‌ها وجود ندارد.</p>
+
+        <h3>۴. ظرفیت گرمایش را با زمان چرخه ببندید</h3>
+        <p>دمای هدف بدون مشخص‌کردن زمان رسیدن به آن، دمای ورودی آب، اتلاف حرارتی و بار برگشتی ناقص است. اگر مبدل یا بخار موجود نتواند محلول را در زمان لازم آماده کند، پمپ بزرگ‌تر زمان چرخه را حل نمی‌کند. در URS بنویسید دما در کدام نقطه سنجیده می‌شود، زمان نگهداری از چه لحظه‌ای شروع می‌شود و تحمل مجاز چیست.</p>
+
+        <h3>۵. هم‌زمانی، بازیابی و توسعه را روشن کنید</h3>
+        <p>شست‌وشوی هم‌زمان دو مدار می‌تواند دبی، تعداد مسیرهای شیر، حجم محلول و ظرفیت گرم‌کردن را به‌طور جدی تغییر دهد. همچنین مشخص کنید محلول به مخزن بازمی‌گردد، یک‌بارمصرف است یا بر اساس هدایت الکتریکی و منطق تأیید بازیابی می‌شود. توسعه آینده باید با تعداد اتصال رزرو، I/O، فضای نصب و محدوده نرم‌افزار تعریف شود؛ نه با عبارت کلی «قابل توسعه».</p>
+
+        <h2 id="urs">چک‌لیست URS برای استعلام سیستم CIP</h2>
+        <p>URS یا مشخصات نیازمندی کاربر، سندی است که نیاز بهره‌بردار را به معیارهای قابل تحویل تبدیل می‌کند. حداقل این موارد را در استعلام ثبت کنید:</p>
+        <ul>
+          <li>نام و کد هر مدار، تجهیزات داخل حلقه و ترتیب شست‌وشو</li>
+          <li>دبی و هد مورد نیاز هر مدار یا داده‌های لازم برای محاسبه توسط سازنده</li>
+          <li>حجم عملیاتی و حجم هندسی هر مخزن، همراه با سطح حداقل و حداکثر</li>
+          <li>نوع چرخه‌ها، تعداد Recipe و حدود قابل تنظیم توسط کاربران مجاز</li>
+          <li>نقاط اندازه‌گیری دما، دبی، فشار، سطح، هدایت الکتریکی یا pH در صورت نیاز</li>
+          <li>منطق تغییر مسیر شیرها، اینترلاک جلوگیری از اختلاط و وضعیت ایمن در قطع برق یا هوا</li>
+          <li>منطق بازگشت، تخلیه، بازیابی محلول و تشخیص پایان آبکشی</li>
+          <li>حدود یوتیلیتی ورودی و مسئولیت تأمین مبدل، تله بخار، کابل و لوله‌کشی</li>
+          <li>متریال قطعات در تماس، نوع گسکت، پرداخت سطح و الزامات تخلیه‌پذیری</li>
+          <li>ثبت روند، آلارم‌ها، سطح دسترسی، گزارش Batch و ارتباط با سیستم کارخانه</li>
+          <li>مدارک تحویلی: P&amp;ID، لیست I/O، دیتاشیت، نقشه ساخت، دستورالعمل و لیست قطعات یدکی</li>
+          <li>دامنه FAT، SAT، آموزش، راه‌اندازی و مسئولیت اعتبارسنجی شست‌وشو</li>
+        </ul>
+
+        <h2 id="compare">جدول مقایسه پیشنهادهای فنی</h2>
+        <table class="article-table"><thead><tr><th>ردیف مقایسه</th><th>پرسش قابل‌اندازه‌گیری</th><th>ریسک عبارت مبهم</th></tr></thead><tbody>
+          <tr><td>ظرفیت پمپ</td><td>نقطه کاری تضمین‌شده برای هر مدار چیست؟</td><td>اعلام صرف توان موتور یا دبی آزاد</td></tr>
+          <tr><td>گرمایش</td><td>شرایط مبنای زمان رسیدن به دما چیست؟</td><td>اعلام دمای نهایی بدون زمان و یوتیلیتی</td></tr>
+          <tr><td>اتوماسیون</td><td>کدام شیر، سنسور، اینترلاک و داده در Scope است؟</td><td>استفاده از عنوان «تمام‌اتوماتیک» بدون ماتریس عملکرد</td></tr>
+          <tr><td>مخازن</td><td>حجم کاری، حجم کل و حداقل سطح هر مخزن چقدر است؟</td><td>مقایسه فقط بر اساس تعداد یا حجم اسمی</td></tr>
+          <tr><td>تحویل</td><td>FAT، نصب، SAT، آموزش و مدارک دقیقاً شامل چیست؟</td><td>تفاوت قیمت ناشی از Scope پنهان</td></tr>
+        </tbody></table>
+
+        <p>برای انتخاب سطح کنترل، راهنمای <a href="cip-manual-vs-automatic.html">CIP دستی، نیمه‌اتوماتیک یا اتوماتیک</a> را بخوانید. صفحه <a href="cip-system.html">سیستم CIP صنایع غذایی</a> نیز دامنه محصول و مسیر درخواست بررسی فنی را معرفی می‌کند. اگر موضوع شما شست‌وشوی مدار فیلتر است، تفاوت <a href="cip-backwash-guide.html">CIP و Backwash</a> را جداگانه بررسی کنید.</p>
+
+        <h2>چه چیزهایی باید توسط تیم فنی پروژه تأیید شوند؟</h2>
+        <ul>
+          <li>سرعت جریان یا الگوی پوشش مناسب برای هر تجهیز و نازل</li>
+          <li>دما، غلظت، زمان تماس و ترتیب مواد شیمیایی</li>
+          <li>سازگاری متریال، گسکت و ابزار دقیق با مواد شوینده</li>
+          <li>معیارهای میکروبی، شیمیایی یا بازرسی برای آزادسازی خط</li>
+          <li>محدوده‌های ایمنی فشار، دما، بخار و مواد شیمیایی</li>
+        </ul>
+        <p>منابع Tetra Pak چهار پارامتر دما، جریان، غلظت و زمان تماس را از عوامل کلیدی کنترل CIP معرفی می‌کنند. EHEDG نیز در راهنمای طراحی تأسیسات CIP بر تعریف URS، طراحی بهداشتی، مدیریت و اعتبارسنجی تأکید دارد. این چارچوب‌ها جایگزین بررسی پروژه واقعی و دستورالعمل ماده شوینده نیستند.</p>
+
+        <h2 id="sources">منابع اولیه و حدود استفاده</h2>
+        <ul>
+          <li><a href="https://www.tetrapak.com/solutions/integrated-solutions-equipment/processing-equipment/cleaning-in-place" target="_blank" rel="noopener">Tetra Pak — Cleaning in Place Equipment</a></li>
+          <li><a href="https://dairyprocessinghandbook.tetrapak.com/chapter/cleaning-dairy-equipment" target="_blank" rel="noopener">Tetra Pak Dairy Processing Handbook — Cleaning of Dairy Equipment</a></li>
+          <li><a href="https://www.alfalaval.com/industries/food-dairy-beverage/beverage-processing/beer-production/webinar/brewery-cip-webinar-29-apr-2020/q-a/" target="_blank" rel="noopener">Alfa Laval — Brewery CIP Webinar Q&amp;A</a></li>
+          <li><a href="https://www.ehedg.org/guidelines-working-groups/guidelines/guidelines/detail/hygienic-design-requirements-for-cip-installations" target="_blank" rel="noopener">EHEDG Guideline 50 — Hygienic Design Requirements for CIP Installations</a></li>
+          <li><a href="https://www.ehedg.org/guidelines-working-groups/guidelines/guidelines/detail/cleaning-validation-in-the-food-industry-general-principles-part-1" target="_blank" rel="noopener">EHEDG Guideline 45 — Cleaning Validation, Monitoring and Verification</a></li>
+        </ul>
+        <p>این مقاله آموزشی است و هیچ ظرفیت، عملکرد یا نتیجه شست‌وشوی مشخصی را برای تجهیزات بهریز مبدل تضمین نمی‌کند. مشخصات نهایی پس از دریافت مدارک خط، محاسبات مهندسی و تأیید معیارهای پذیرش پروژه تعیین می‌شوند.</p>
+
+        <div class="article-cta"><h2>برای ظرفیت‌سنجی CIP، مدار واقعی خط را ارسال کنید</h2><p>P&amp;ID، فهرست تجهیزات، قطر و طول خطوط، زمان مجاز شست‌وشو و یوتیلیتی‌های موجود را بفرستید تا محدوده فنی و اقلام نیازمند تأیید مشخص شوند.</p><a class="btn btn-primary" href="index.html#contact">درخواست بررسی فنی و استعلام</a></div>
+      </article>
+    </div></section>
+  </main>
+  <footer><div class="container copyright">© 2026 Behriz Mobadel Co.</div></footer>
+  <script src="floating-contact.js" defer></script>
+</body>
+</html>
