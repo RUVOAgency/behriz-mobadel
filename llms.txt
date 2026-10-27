@@ -20,6 +20,8 @@ English section: https://www.behrizmobadel.com/en/
 
 ## Technical references
 
+- Candle-filter effective area sizing, tested flux and net cycle capacity guide (Persian): https://www.behrizmobadel.com/candle-filter-area-sizing.html
+
 - Cartridge-filter URS, RFQ, FAT/SAT and bid-comparison guide for beverage plants (Persian): https://www.behrizmobadel.com/cartridge-filter-urs-rfq.html
 
 - 5 vs 9-element industrial cartridge-filter housing selection guide (Persian): https://www.behrizmobadel.com/cartridge-filter-5-vs-9-elements.html
