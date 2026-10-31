@@ -20,6 +20,8 @@ English section: https://www.behrizmobadel.com/en/
 
 ## Technical references
 
+- Food-grade progressing-cavity pump URS, RFQ, FAT/SAT and bid-comparison guide for beverage plants (Persian): https://www.behrizmobadel.com/mono-pump-urs-rfq.html
+
 - Candle-filter effective area sizing, tested flux and net cycle capacity guide (Persian): https://www.behrizmobadel.com/candle-filter-area-sizing.html
 
 - Cartridge-filter URS, RFQ, FAT/SAT and bid-comparison guide for beverage plants (Persian): https://www.behrizmobadel.com/cartridge-filter-urs-rfq.html
