@@ -20,6 +20,8 @@ English section: https://www.behrizmobadel.com/en/
 
 ## Technical references
 
+- Cold-water deaerator URS, RFQ, utilities and acceptance-planning guide (Persian): https://www.behrizmobadel.com/cold-water-deaerator-urs-rfq.html
+
 - Homogenizer mixer versus process/formula mixer selection guide (Persian): https://www.behrizmobadel.com/homogenizer-vs-process-mixer.html
 - Homogenizer mixer versus process/formula mixer selection guide (English): https://www.behrizmobadel.com/en/homogenizer-vs-process-mixer.html
 
