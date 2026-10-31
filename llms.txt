@@ -20,6 +20,9 @@ English section: https://www.behrizmobadel.com/en/
 
 ## Technical references
 
+- Homogenizer mixer versus process/formula mixer selection guide (Persian): https://www.behrizmobadel.com/homogenizer-vs-process-mixer.html
+- Homogenizer mixer versus process/formula mixer selection guide (English): https://www.behrizmobadel.com/en/homogenizer-vs-process-mixer.html
+
 - Food-grade progressing-cavity pump URS, RFQ, FAT/SAT and bid-comparison guide for beverage plants (Persian): https://www.behrizmobadel.com/mono-pump-urs-rfq.html
 
 - Candle-filter effective area sizing, tested flux and net cycle capacity guide (Persian): https://www.behrizmobadel.com/candle-filter-area-sizing.html
