@@ -20,6 +20,8 @@ English section: https://www.behrizmobadel.com/en/
 
 ## Technical references
 
+- Spiral tunnel pasteurizer URS, RFQ, FAT/SAT and bid-comparison guide for packaged beverages (Persian): https://www.behrizmobadel.com/spiral-pasteurizer-urs-rfq.html
+
 - CIP validation, FAT/SAT, monitoring and acceptance checklist for food and beverage plants (Persian): https://www.behrizmobadel.com/cip-validation-fat-sat.html
 
 - Kieselguhr plate filter versus candle filter selection and RFQ guide for juice, syrup and malt beverage (Persian): https://www.behrizmobadel.com/kieselguhr-vs-candle-filter.html
@@ -72,3 +74,4 @@ English section: https://www.behrizmobadel.com/en/
 - Email: info@behrizmobadel.com
 
 Product specifications are project-dependent. Final capacity, materials, automation, and process configuration must be confirmed through engineering review.
+
