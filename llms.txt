@@ -20,6 +20,8 @@ English section: https://www.behrizmobadel.com/en/
 
 ## Technical references
 
+- CIP validation, FAT/SAT, monitoring and acceptance checklist for food and beverage plants (Persian): https://www.behrizmobadel.com/cip-validation-fat-sat.html
+
 - Kieselguhr plate filter versus candle filter selection and RFQ guide for juice, syrup and malt beverage (Persian): https://www.behrizmobadel.com/kieselguhr-vs-candle-filter.html
 - Kieselguhr plate filter versus candle filter selection and RFQ guide for regional buyers (English): https://www.behrizmobadel.com/en/kieselguhr-vs-candle-filter.html
 
