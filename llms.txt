@@ -29,7 +29,7 @@ English section: https://www.behrizmobadel.com/en/
 
 - Cold-water deaerator URS, RFQ, utilities and acceptance-planning guide (Persian): https://www.behrizmobadel.com/cold-water-deaerator-urs-rfq.html
 
-- Homogenizer mixer versus process/formula mixer selection guide (Persian): https://www.behrizmobadel.com/homogenizer-vs-process-mixer.html
+- Homogenizer mixer selection, product trial, scale-up, acceptance criteria and RFQ guide (Persian): https://www.behrizmobadel.com/homogenizer-vs-process-mixer.html
 - Homogenizer mixer versus process/formula mixer selection guide (English): https://www.behrizmobadel.com/en/homogenizer-vs-process-mixer.html
 
 - Food-grade progressing-cavity pump URS, RFQ, FAT/SAT and bid-comparison guide for beverage plants (Persian): https://www.behrizmobadel.com/mono-pump-urs-rfq.html
@@ -74,4 +74,5 @@ English section: https://www.behrizmobadel.com/en/
 - Email: info@behrizmobadel.com
 
 Product specifications are project-dependent. Final capacity, materials, automation, and process configuration must be confirmed through engineering review.
+
 
