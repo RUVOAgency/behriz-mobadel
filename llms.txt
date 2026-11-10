@@ -20,6 +20,8 @@ English section: https://www.behrizmobadel.com/en/
 
 ## Technical references
 
+- Candle filter FAT/SAT, acceptance criteria, documentation and commissioning checklist (Persian): https://www.behrizmobadel.com/candle-filter-fat-sat-checklist.html
+
 - Spiral tunnel pasteurizer URS, RFQ, FAT/SAT and bid-comparison guide for packaged beverages (Persian): https://www.behrizmobadel.com/spiral-pasteurizer-urs-rfq.html
 
 - CIP validation, FAT/SAT, monitoring and acceptance checklist for food and beverage plants (Persian): https://www.behrizmobadel.com/cip-validation-fat-sat.html
