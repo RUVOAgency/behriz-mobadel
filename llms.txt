@@ -20,6 +20,8 @@ English section: https://www.behrizmobadel.com/en/
 
 ## Technical references
 
+- Batch, buffer and balance tank selection, control and RFQ guide for beverage lines (Persian): https://www.behrizmobadel.com/batch-buffer-balance-tank-guide.html
+
 - Single versus duplex/parallel cartridge-filter housing selection guide for beverage production (Persian): https://www.behrizmobadel.com/single-vs-duplex-cartridge-filter.html
 
 - Concentrated-syrup deaerator selection, URS, RFQ and bid-comparison guide for beverage lines (Persian): https://www.behrizmobadel.com/syrup-deaerator-urs-rfq.html
