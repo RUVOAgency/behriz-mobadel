@@ -20,6 +20,9 @@ English section: https://www.behrizmobadel.com/en/
 
 ## Technical references
 
+- Concentrated-syrup deaerator selection, URS, RFQ and bid-comparison guide for beverage lines (Persian): https://www.behrizmobadel.com/syrup-deaerator-urs-rfq.html
+- Concentrated-syrup deaerator URS and procurement guide for regional buyers (English): https://www.behrizmobadel.com/en/syrup-deaerator-urs-rfq.html
+
 - Candle filter FAT/SAT, acceptance criteria, documentation and commissioning checklist (Persian): https://www.behrizmobadel.com/candle-filter-fat-sat-checklist.html
 
 - Spiral tunnel pasteurizer URS, RFQ, FAT/SAT and bid-comparison guide for packaged beverages (Persian): https://www.behrizmobadel.com/spiral-pasteurizer-urs-rfq.html
