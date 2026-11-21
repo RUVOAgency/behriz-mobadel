@@ -21,6 +21,8 @@ English section: https://www.behrizmobadel.com/en/
 ## Technical references
 
 - Cartridge-filter total cost of ownership, consumables, downtime and bid-comparison guide (Persian): https://www.behrizmobadel.com/cartridge-filter-tco-guide.html
+- Diatomite dosing pump selection, URS, calibration and RFQ guide for Kieselguhr filtration (Persian): https://www.behrizmobadel.com/dosing-pump-diatomite-kieselguhr-rfq.html
+- Diatomite diaphragm dosing-pump procurement guide for juice and malt-beverage filtration (English): https://www.behrizmobadel.com/en/dosing-pump-diatomite-kieselguhr-rfq.html
 
 - Candle filter price, scope, capacity basis and RFQ comparison guide (Persian): https://www.behrizmobadel.com/candle-filter-price.html
 
