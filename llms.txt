@@ -20,6 +20,8 @@ English section: https://www.behrizmobadel.com/en/
 
 ## Technical references
 
+- Cartridge-filter total cost of ownership, consumables, downtime and bid-comparison guide (Persian): https://www.behrizmobadel.com/cartridge-filter-tco-guide.html
+
 - Candle filter price, scope, capacity basis and RFQ comparison guide (Persian): https://www.behrizmobadel.com/candle-filter-price.html
 
 - Single-use versus recovery CIP selection, control and RFQ guide for beverage plants (Persian): https://www.behrizmobadel.com/cip-single-use-vs-recovery.html
@@ -87,5 +89,6 @@ English section: https://www.behrizmobadel.com/en/
 - Email: info@behrizmobadel.com
 
 Product specifications are project-dependent. Final capacity, materials, automation, and process configuration must be confirmed through engineering review.
+
 
 
