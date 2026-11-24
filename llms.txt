@@ -67,7 +67,7 @@ English section: https://www.behrizmobadel.com/en/
 - Cartridge filter nominal versus absolute rating and procurement checklist: https://www.behrizmobadel.com/cartridge-filter-nominal-vs-absolute.html
 
 - Candle versus cartridge filter: selection matrix, RFQ data, official 2026 catalog comparison (pages 11-12), pilot testing and acceptance checklist (Persian): https://www.behrizmobadel.com/candle-vs-cartridge-filter.html
-- Beverage filtration RFQ checklist: https://www.behrizmobadel.com/filtration-rfq-checklist.html
+- Beverage-filtration RFQ readiness, minimum attachment package, bid comparison and acceptance checklist for technical and procurement teams (Persian): https://www.behrizmobadel.com/filtration-rfq-checklist.html
 
 - Dissolved oxygen control and cold-water deaeration: https://www.behrizmobadel.com/en/dissolved-oxygen-beverage-water.html
 - Persian dissolved oxygen guide: https://www.behrizmobadel.com/dissolved-oxygen-beverage-water.html
