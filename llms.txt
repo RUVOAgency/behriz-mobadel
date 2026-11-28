@@ -28,7 +28,8 @@ English section: https://www.behrizmobadel.com/en/
 
 - Single-use versus recovery CIP selection, control and RFQ guide for beverage plants (Persian): https://www.behrizmobadel.com/cip-single-use-vs-recovery.html
 
-- Batch, buffer and balance tank selection, control and RFQ guide for beverage lines (Persian): https://www.behrizmobadel.com/batch-buffer-balance-tank-guide.html\n- Stainless-steel process tank price, scope and bid-comparison checklist for beverage plants (Persian): https://www.behrizmobadel.com/stainless-steel-tank-price-rfq.html
+- Batch, buffer and balance tank selection, control and RFQ guide for beverage lines (Persian): https://www.behrizmobadel.com/batch-buffer-balance-tank-guide.html
+- Stainless-steel process tank price, scope and bid-comparison checklist for beverage plants (Persian): https://www.behrizmobadel.com/stainless-steel-tank-price-rfq.html
 
 - Single versus duplex/parallel cartridge-filter housing selection guide for beverage production (Persian): https://www.behrizmobadel.com/single-vs-duplex-cartridge-filter.html
 
@@ -50,6 +51,8 @@ English section: https://www.behrizmobadel.com/en/
 - Homogenizer mixer versus process/formula mixer selection guide (English): https://www.behrizmobadel.com/en/homogenizer-vs-process-mixer.html
 
 - Food-grade progressing-cavity pump URS, RFQ, FAT/SAT and bid-comparison guide for beverage plants (Persian): https://www.behrizmobadel.com/mono-pump-urs-rfq.html
+- Progressing-cavity pump dry-run protection, interlock and RFQ guide (Persian): https://www.behrizmobadel.com/mono-pump-dry-run-protection.html
+- Progressing-cavity pump dry-run protection, controls and acceptance guide (English): https://www.behrizmobadel.com/en/mono-pump-dry-run-protection.html
 
 - Candle-filter effective area sizing, tested flux and net cycle capacity guide (Persian): https://www.behrizmobadel.com/candle-filter-area-sizing.html
 
